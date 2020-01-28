@@ -1,0 +1,39 @@
+Séminaire véhicules électriques (28 janvier)
+    - Types de véhicules
+        - Vélos
+        - Scooters
+        - Voitures
+        - Autobus
+        - Trains
+        - Tramways
+        - Gondoles
+        - Véhicules spécialisés: véhicules de livraison, camions dans les carrières,
+          tracteurs
+
+    - Types d'électrification
+        - Hybride: Batteries + Moteur à combustion
+        - Hybride plug-in: Les batteries sont rechargeables à l'arrêt
+        - Hybride série: Le moteur agit comme générateur électrique et n'est pas
+          connecté aux roues
+        - Hybride parallèle: Le moteur est connecté aux roues aussi. Il doit y avoir un
+          synchronisme entre le moteur électrique et thermique.
+        - Électrique: Pas de moteur électrique
+
+     - Stockage de l'énergie
+        - Caractéristiques des batteries:
+            - Charge spécifique: Quantité d'énergie stockée par unité de masse
+            - Densité énergétique: Quantité d'énergie stockée par unité de volume
+            - Puissance massique: Puissance délivrée par masse
+            - Cyclage: Nombre de charges/décharges pouvant être appliquées à la batterie
+        
+        - Batterie Lithium-ion
+            - Anode: Feuilles de papier empilées qui s'usent aux charges / décharges
+            - Processus de revêtement: Recouvrement de la cathode et de l'électrode qui
+              réduisent la circulation des ions -> perte d'autonomie
+            - Charges complètes diminuent la durée de vie
+            - LIMITER CHARGE À 80%
+            - LIMITER DÉCHARGE À 30%
+
+
+
+
