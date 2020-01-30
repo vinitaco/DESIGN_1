@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="DESIGN 1" company="Équipe 24" webLink="http://" view-date="2020-01-23" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.10" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="DESIGN 1" company="Équipe 24" webLink="http://" view-date="2020-01-28" view-index="0" gantt-divider-location="379" resource-divider-location="300" version="2.8.10" locale="fr">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Name" width="167" order="0"/>
-        <field id="tpd4" name="Begin date" width="65" order="1"/>
-        <field id="tpd5" name="End date" width="64" order="2"/>
+        <field id="tpd3" name="Nom" width="191" order="0"/>
+        <field id="tpd4" name="Date de début" width="82" order="1"/>
+        <field id="tpd5" name="Date de fin" width="102" order="2"/>
+        <option id="taskLabelLeft" value="resources"/>
+        <option id="color.recent">
+            <![CDATA[#00ff33 #ff0033 #e1e1e1]]>
+        </option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="210" order="0"/>
-        <field id="1" name="Default role" width="86" order="1"/>
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -33,8 +37,29 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
+        <task id="0" name="Documents de gestion G04" color="#8cb6ce" meeting="false" start="2020-01-30" duration="5" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
+        <task id="2" name="Documents de gestion G05" color="#8cb6ce" meeting="false" start="2020-02-05" duration="6" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
+        <task id="6" name="Documents de gestion G06" color="#8cb6ce" meeting="false" start="2020-02-12" duration="6" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
+        <task id="16" name="Documents de gestion G07" color="#8cb6ce" meeting="false" start="2020-02-19" duration="6" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
+        <task id="18" name="Documents de gestion G09" color="#8cb6ce" meeting="false" start="2020-02-26" duration="11" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
+        <task id="20" name="Documents de gestion G10" color="#8cb6ce" meeting="false" start="2020-03-11" duration="6" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
+        <task id="21" name="Documents de  gestion G11" color="#8cb6ce" meeting="false" start="2020-03-19" duration="5" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
+        <task id="24" name="Documents de gestion G12" color="#8cb6ce" meeting="false" start="2020-03-25" duration="6" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
+        <task id="26" name="Documents de gestion G13" color="#8cb6ce" meeting="false" start="2020-04-01" duration="6" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
+        <task id="8" name="Rapport de projet - version 1" color="#ff0033" meeting="false" start="2020-01-30" duration="16" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
+        <task id="29" name="Rapport de projet - version 2" color="#ff0033" meeting="false" start="2020-02-20" duration="21" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
+        <task id="30" name="Rapport de projet - version finale" color="#ff0033" meeting="false" start="2020-03-19" duration="21" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
+        <task id="32" name="Présentation orale du projet" color="#00ff33" meeting="true" start="2020-04-23" duration="0" complete="0" thirdDate="2020-01-15" thirdDate-constraint="0" expand="true"/>
     </tasks>
-    <resources/>
+    <resources>
+        <resource id="0" name="Vincent Bergeron" function="Default:0" contacts="vincent.bergeron.13@ulaval.ca" phone=""/>
+        <resource id="1" name="Nathan Desbiens" function="Default:0" contacts="nathan.desbiens.1@ulaval.ca" phone=""/>
+        <resource id="2" name="Vincent Gagnon-Loisel" function="Default:0" contacts="vincent.gagnon-loisel.1@ulaval.ca" phone=""/>
+        <resource id="3" name="Naye Gueye" function="Default:0" contacts="naye.gueye.1@ulaval.ca" phone=""/>
+        <resource id="4" name="Samuel Lassonde" function="Default:0" contacts="samuel.lassonde.1@ulaval.ca" phone=""/>
+        <resource id="5" name="Mohammed Reda Hassouni" function="Default:0" contacts="reda.hassouni.1@ulaval.ca" phone=""/>
+        <resource id="6" name="Henry Rey Valderrama" function="Default:0" contacts="henry.rey-valderrama.1@ulaval.ca" phone=""/>
+    </resources>
     <allocations/>
     <vacations/>
     <previous/>
