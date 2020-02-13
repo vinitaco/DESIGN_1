@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="DESIGN 1" company="Équipe 24" webLink="http://" view-date="2020-01-10" view-index="0" gantt-divider-location="567" resource-divider-location="300" version="2.8.10" locale="fr">
+<?xml version="1.0" encoding="UTF-8"?><project name="DESIGN 1" company="Équipe 24" webLink="http://" view-date="2020-01-14" view-index="0" gantt-divider-location="787" resource-divider-location="300" version="2.8.10" locale="fr">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Nom" width="247" order="0"/>
-        <field id="tpd4" name="Date de début" width="149" order="1"/>
-        <field id="tpd5" name="Date de fin" width="167" order="2"/>
+        <field id="tpd3" name="Nom" width="315" order="0"/>
+        <field id="tpd4" name="Date de début" width="218" order="1"/>
+        <field id="tpd5" name="Date de fin" width="235" order="2"/>
         <option id="taskLabelLeft" value="resources"/>
         <timeline>
-            <![CDATA[121,129]]>
+            <![CDATA[129,121]]>
         </timeline>
         <option id="color.recent">
-            <![CDATA[#000000 #0000ff #ff9900 #990099 #ff0033 #00ff33 #e1e1e1]]>
+            <![CDATA[#990099 #000000 #0000ff #ff9900 #ff0033 #00ff33 #e1e1e1]]>
         </option>
     </view>
     <view id="resource-table">
@@ -40,8 +40,8 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="149" name="Les pupilles de Buttrick" color="#000000" meeting="false" start="2020-01-13" duration="73" complete="22" thirdDate="2020-01-13" thirdDate-constraint="0" expand="true">
-            <task id="144" name="Documents de gestion" color="#0000ff" meeting="false" start="2020-01-13" duration="63" complete="26" thirdDate="2020-01-06" thirdDate-constraint="0" expand="true">
+        <task id="149" name="Les pupilles de Buttrick" color="#000000" meeting="false" start="2020-01-13" duration="73" complete="26" thirdDate="2020-01-13" thirdDate-constraint="0" expand="true">
+            <task id="144" name="Documents de gestion" color="#0000ff" meeting="false" start="2020-01-13" duration="63" complete="33" thirdDate="2020-01-06" thirdDate-constraint="0" expand="true">
                 <task id="106" name="Documents de gestion G03" color="#8cb6ce" meeting="false" start="2020-01-13" duration="13" complete="100" thirdDate="2020-01-14" thirdDate-constraint="0" expand="true">
                     <task id="110" name="Ordre du jour de la réunion du 30 janvier" color="#990099" meeting="false" start="2020-01-13" duration="13" complete="100" thirdDate="2020-01-10" thirdDate-constraint="0" expand="true" cost-manual-value="20.0" cost-calculated="true"/>
                 </task>
@@ -50,12 +50,16 @@
                     <task id="73" name="Ordre du jour de la réunion du 6 février" color="#990099" meeting="false" start="2020-01-30" duration="5" complete="100" thirdDate="2020-01-17" thirdDate-constraint="0" expand="true"/>
                     <task id="97" name="Mise à jour du fichier GANTT" color="#990099" meeting="false" start="2020-01-30" duration="5" complete="100" thirdDate="2020-01-13" thirdDate-constraint="0" expand="true"/>
                 </task>
-                <task id="2" name="Documents de gestion G05" color="#8cb6ce" meeting="false" start="2020-02-06" duration="5" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true">
-                    <task id="76" name="Procès verbal de la réunion du 6 février" color="#990099" meeting="false" start="2020-02-06" duration="2" complete="0" thirdDate="2020-01-17" thirdDate-constraint="0" expand="true"/>
-                    <task id="77" name="Ordre du jour du 13 février" color="#990099" meeting="false" start="2020-02-06" duration="5" complete="0" thirdDate="2020-01-17" thirdDate-constraint="0" expand="true"/>
-                    <task id="105" name="Mise à jour du fichier GANTT" color="#990099" meeting="false" start="2020-02-06" duration="5" complete="0" thirdDate="2020-01-20" thirdDate-constraint="0" expand="true"/>
+                <task id="2" name="Documents de gestion G05" color="#8cb6ce" meeting="false" start="2020-02-06" duration="5" complete="100" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true">
+                    <task id="76" name="Procès verbal de la réunion du 6 février" color="#990099" meeting="false" start="2020-02-06" duration="2" complete="100" thirdDate="2020-01-17" thirdDate-constraint="0" expand="true"/>
+                    <task id="77" name="Ordre du jour du 13 février" color="#990099" meeting="false" start="2020-02-06" duration="5" complete="100" thirdDate="2020-01-17" thirdDate-constraint="0" expand="true"/>
+                    <task id="105" name="Mise à jour du fichier GANTT" color="#990099" meeting="false" start="2020-02-06" duration="5" complete="100" thirdDate="2020-01-20" thirdDate-constraint="0" expand="true"/>
                 </task>
-                <task id="6" name="Documents de gestion G06" color="#8cb6ce" meeting="false" start="2020-02-12" duration="6" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
+                <task id="6" name="Documents de gestion G06" color="#8cb6ce" meeting="false" start="2020-02-13" duration="5" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true">
+                    <task id="169" name="Ordre du jour" color="#990099" meeting="false" start="2020-02-13" duration="5" complete="0" thirdDate="2020-01-29" thirdDate-constraint="0" expand="true"/>
+                    <task id="172" name="Procès verbal" color="#990099" meeting="false" start="2020-02-13" duration="5" complete="0" thirdDate="2020-01-29" thirdDate-constraint="0" expand="true"/>
+                    <task id="174" name="GANTT" color="#990099" meeting="false" start="2020-02-13" duration="5" complete="0" thirdDate="2020-01-29" thirdDate-constraint="0" expand="true"/>
+                </task>
                 <task id="16" name="Documents de gestion G07" color="#8cb6ce" meeting="false" start="2020-02-19" duration="6" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
                 <task id="18" name="Documents de gestion G09" color="#8cb6ce" meeting="false" start="2020-02-26" duration="11" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
                 <task id="20" name="Documents de gestion G10" color="#8cb6ce" meeting="false" start="2020-03-11" duration="6" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
@@ -63,7 +67,7 @@
                 <task id="24" name="Documents de gestion G12" color="#8cb6ce" meeting="false" start="2020-03-25" duration="6" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
                 <task id="26" name="Documents de gestion G13" color="#8cb6ce" meeting="false" start="2020-04-01" duration="6" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="146" name="Rapport de projet" color="#0000ff" meeting="false" start="2020-01-13" duration="73" complete="20" thirdDate="2020-01-13" thirdDate-constraint="0" expand="true">
+            <task id="146" name="Rapport de projet" color="#0000ff" meeting="false" start="2020-01-13" duration="73" complete="21" thirdDate="2020-01-13" thirdDate-constraint="0" expand="true">
                 <task id="107" name="Rapport de projet - version 0" color="#ff0033" meeting="false" start="2020-01-13" duration="14" complete="100" thirdDate="2020-01-14" thirdDate-constraint="0" expand="true">
                     <task id="119" name="Introduction" color="#ff9900" meeting="false" start="2020-01-13" duration="14" complete="100" thirdDate="2020-01-10" thirdDate-constraint="0" expand="true">
                         <task id="121" name="Contexte du projet" color="#ff9900" meeting="false" start="2020-01-13" duration="14" complete="100" thirdDate="2020-01-10" thirdDate-constraint="0" expand="true"/>
@@ -72,7 +76,7 @@
                     </task>
                     <task id="129" name="Description du projet" color="#ff9900" meeting="false" start="2020-01-13" duration="14" complete="100" thirdDate="2020-01-07" thirdDate-constraint="0" expand="true"/>
                 </task>
-                <task id="8" name="Rapport de projet - version 1" color="#ff0033" meeting="false" start="2020-02-06" duration="14" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true">
+                <task id="8" name="Rapport de projet - version 1" color="#ff0033" meeting="false" start="2020-02-06" duration="11" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true">
                     <task id="42" name="3.1) Analyse des besoins" color="#ff9900" meeting="false" start="2020-02-06" duration="2" complete="0" thirdDate="2020-01-20" thirdDate-constraint="0" expand="true">
                         <depend id="54" type="2" difference="0" hardness="Rubber"/>
                         <depend id="70" type="2" difference="0" hardness="Strong"/>
@@ -85,7 +89,14 @@
                         <task id="142" name="3.3) Finalisation de l'analyse des objectifs" color="#ff9900" meeting="false" start="2020-02-06" duration="5" complete="0" thirdDate="2020-01-15" thirdDate-constraint="0" expand="true"/>
                     </task>
                     <task id="54" name="3.3) Hiérarchisation des objectifs" color="#ff9900" meeting="false" start="2020-02-14" duration="2" complete="0" thirdDate="2020-01-20" thirdDate-constraint="0" expand="true"/>
-                    <task id="70" name="4.1) Cahier de charges" color="#ff9900" meeting="false" start="2020-02-13" duration="9" complete="0" thirdDate="2020-01-20" thirdDate-constraint="0" expand="true"/>
+                    <task id="70" name="4.1) Cahier de charges" color="#ff9900" meeting="false" start="2020-02-13" duration="6" complete="0" thirdDate="2020-01-20" thirdDate-constraint="0" expand="true">
+                        <task id="151" name="Automatisation" color="#8cb6ce" meeting="false" start="2020-02-13" duration="6" complete="0" thirdDate="2020-02-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="153" name="Efficacité du système de recharge" color="#8cb6ce" meeting="false" start="2020-02-13" duration="6" complete="0" thirdDate="2020-02-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="162" name="Sécurité de l'infrastructure" color="#8cb6ce" meeting="false" start="2020-02-13" duration="6" complete="0" thirdDate="2020-02-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="155" name="Gestion fiable des données" color="#8cb6ce" meeting="false" start="2020-02-13" duration="6" complete="0" thirdDate="2020-02-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="157" name="Stabilité des déplacements" color="#8cb6ce" meeting="false" start="2020-02-13" duration="6" complete="0" thirdDate="2020-02-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="159" name="Réduction des coûts du système" color="#8cb6ce" meeting="false" start="2020-02-13" duration="6" complete="0" thirdDate="2020-02-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
                 </task>
                 <task id="29" name="Rapport de projet - version 2" color="#ff0033" meeting="false" start="2020-02-21" duration="20" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
                 <task id="30" name="Rapport de projet - version finale" color="#ff0033" meeting="false" start="2020-03-20" duration="20" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
@@ -107,24 +118,31 @@
         <allocation task-id="110" resource-id="0" function="Default:0" responsible="false" load="30.0"/>
         <allocation task-id="124" resource-id="0" function="Default:0" responsible="false" load="40.0"/>
         <allocation task-id="126" resource-id="0" function="Default:0" responsible="false" load="20.0"/>
-        <allocation task-id="70" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="76" resource-id="0" function="Default:0" responsible="true" load="30.0"/>
         <allocation task-id="105" resource-id="0" function="Default:0" responsible="true" load="40.0"/>
+        <allocation task-id="155" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="174" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="73" resource-id="1" function="Default:0" responsible="false" load="30.0"/>
         <allocation task-id="142" resource-id="1" function="Default:0" responsible="true" load="40.0"/>
+        <allocation task-id="162" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="71" resource-id="2" function="Default:0" responsible="false" load="30.0"/>
-        <allocation task-id="70" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="142" resource-id="2" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="151" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="47" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="121" resource-id="3" function="Default:0" responsible="false" load="60.0"/>
+        <allocation task-id="157" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="172" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="42" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="129" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="77" resource-id="4" function="Default:0" responsible="true" load="30.0"/>
+        <allocation task-id="153" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="169" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="42" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="139" resource-id="5" function="Default:0" responsible="true" load="40.0"/>
         <allocation task-id="47" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="54" resource-id="6" function="Default:0" responsible="false" load="60.0"/>
         <allocation task-id="139" resource-id="6" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="159" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
